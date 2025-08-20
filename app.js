@@ -22,17 +22,17 @@ startButton.addEventListener("click", function () {
 
 // sound functions
 function FlashSound() {
-  let audio = new Audio(`/flash.wav`);
+  let audio = new Audio(`static/flash.wav`);
   audio.play();
 }
 
 function successSound() {
-  let audio = new Audio(`/success.wav`);
+  let audio = new Audio(`static/success.wav`);
   audio.play();
 }
 
 function wrongSound() {
-  let audio = new Audio(`/wrong.wav`);
+  let audio = new Audio(`static/wrong.wav`);
   audio.play();
 }
 
